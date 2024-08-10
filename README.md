@@ -16,6 +16,32 @@ The analysis is based on Pizza Hut's sales data, which comprises four key tables
      Lists individual pizzas and their respective prices.
 
 
+# Project Structure
+
+The project is organized as follows:
+
+### pizza_sales_csv: 
+[click here to see](/pizza_sales_csv/)
+
+Contains the dataset files.
+### load_datasets_pizzahut:
+ [click here to see](/load_datasets_pizzahut/)
+
+Include Creating Database, Creating tables and Finally Loading the data into those table from csv files.
+
+### project_pizzahut_analysis: 
+
+[click here to see](/project_pizzahut_analysis/)
+
+Includes SQL scripts used for analysis.
+### assets: 
+
+[click here to see](/assets/)
+
+Stores few visualizations, and summary reports     
+
+
+
 
 # Analysis Methods
 The analysis involves several SQL queries and techniques to extract meaningful insights from the data. Key methods include:
@@ -28,22 +54,10 @@ The analysis involves several SQL queries and techniques to extract meaningful i
 - Percentage Revenue Contribution by Pizza Types: - Calculating each type's share in overall revenue.
 - Cumulative Revenue Analysis: Evaluating the revenue growth over time.
 
+
+
 # Tools and Technologies
 
 - SQL: For data querying and analysis.
 - Database System: PostgreSQL
 - Additional tools: [ VScode, Git, GitHub, ChatGPT ]
-
-# Project Structure
-
-The project is organized as follows:
-
-### pizza_sales_csv: 
-Contains the dataset files.
-### load_datasets_pizzahut:
-Include Creating Database, Creating tables and Finally Loading the data into those table from csv files.
-
-### project_pizzahut_analysis: 
-Includes SQL scripts used for analysis.
-### assets: 
-Stores few visualizations, and summary reports
