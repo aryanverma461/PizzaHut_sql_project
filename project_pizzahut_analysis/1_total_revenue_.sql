@@ -32,11 +32,13 @@ INNER JOIN pizzas
 GROUP BY order_details.quantity
 ORDER BY
         sum DESC
-        
+
 /*Insights generated:
 The data indicates that customers are more likely to purchase single pizzas rather 
 than multiple pizzas in one order. This could be due to individual dining 
 preferences or smaller group sizes.
+
+Result:
 [
   {
     "quantity": 1,

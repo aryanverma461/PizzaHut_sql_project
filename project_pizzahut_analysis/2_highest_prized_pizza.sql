@@ -12,3 +12,14 @@ GROUP BY
     pizza_name
 ORDER BY max_price DESC 
 LIMIT 1 
+
+/*Insight = The Greek Pizza is the highest prized pizza
+
+Result:
+[
+  {
+    "pizza_name": "The Greek Pizza",
+    "max_price": "35.95$"
+  }
+]
+*/
